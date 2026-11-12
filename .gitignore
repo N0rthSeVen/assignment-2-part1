@@ -24,6 +24,10 @@
 .DS_Store
 *.pem
 
+# local data: keep contact-submissions.json in repo, ignore backups and temp files
+/data/*.corrupt-*.json
+/data/*.tmp
+
 # debug
 npm-debug.log*
 yarn-debug.log*
